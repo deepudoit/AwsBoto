@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911fc586-e77f-4b62-9166-a4e68252e6a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ec2/ec2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ec2/ec2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ec2/ec2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_deployment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_deployment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="test_deployment" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -84,28 +84,49 @@
       <option name="presentableId" value="Default" />
       <updated>1575391700925</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ec2 changes">
+      <created>1575425699753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575425699753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ec2 changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ec2 changes" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1377" height="258" key="GridCell.Tab.0.bottom" timestamp="1575424543167">
+    <state x="590" y="143" width="777" height="822" key="CommitChangelistDialog2" timestamp="1575425699579">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state width="1377" height="258" key="GridCell.Tab.0.bottom/52.27.1868.1053@52.27.1868.1053" timestamp="1575424543167" />
-    <state width="1377" height="258" key="GridCell.Tab.0.center" timestamp="1575424543164">
-      <screen x="52" y="27" width="1868" height="1053" />
+    <state x="590" y="143" width="777" height="822" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575425699579" />
+    <state width="787" height="275" key="GridCell.Tab.0.bottom" timestamp="1575448953986">
+      <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1377" height="258" key="GridCell.Tab.0.center/52.27.1868.1053@52.27.1868.1053" timestamp="1575424543164" />
-    <state width="1377" height="258" key="GridCell.Tab.0.left" timestamp="1575424543162">
-      <screen x="52" y="27" width="1868" height="1053" />
+    <state width="787" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953986" />
+    <state width="1377" height="258" key="GridCell.Tab.0.bottom/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877853" />
+    <state width="787" height="275" key="GridCell.Tab.0.center" timestamp="1575448953983">
+      <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1377" height="258" key="GridCell.Tab.0.left/52.27.1868.1053@52.27.1868.1053" timestamp="1575424543162" />
-    <state width="1377" height="258" key="GridCell.Tab.0.right" timestamp="1575424543166">
-      <screen x="52" y="27" width="1868" height="1053" />
+    <state width="787" height="275" key="GridCell.Tab.0.center/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953983" />
+    <state width="1377" height="258" key="GridCell.Tab.0.center/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877848" />
+    <state width="787" height="275" key="GridCell.Tab.0.left" timestamp="1575448953981">
+      <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1377" height="258" key="GridCell.Tab.0.right/52.27.1868.1053@52.27.1868.1053" timestamp="1575424543166" />
-    <state x="475" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575392278296">
-      <screen x="52" y="27" width="1868" height="1053" />
+    <state width="787" height="275" key="GridCell.Tab.0.left/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953981" />
+    <state width="1377" height="258" key="GridCell.Tab.0.left/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877843" />
+    <state width="787" height="275" key="GridCell.Tab.0.right" timestamp="1575448953984">
+      <screen x="0" y="27" width="1920" height="1005" />
     </state>
+    <state width="787" height="275" key="GridCell.Tab.0.right/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953984" />
+    <state width="1377" height="258" key="GridCell.Tab.0.right/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877851" />
+    <state x="435" y="181" width="1051" height="737" key="SettingsEditor" timestamp="1575447340948">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="435" y="181" width="1051" height="737" key="SettingsEditor/0.27.1920.1005@0.27.1920.1005" timestamp="1575447340948" />
     <state x="475" y="188" width="1022" height="737" key="SettingsEditor/52.27.1868.1053@52.27.1868.1053" timestamp="1575392278296" />
     <state x="640" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1575422287908">
       <screen x="52" y="27" width="1868" height="1053" />

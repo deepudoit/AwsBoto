@@ -44,6 +44,21 @@ def main():
 
     print('Key ==> ', str(key_pair))
 
+    # Create security group
+    pub_sec_grp = 'Boto-pub-sec-grp'
+    secgrp_res = ec2.create_sec_grp(pub_sec_grp, 'Public Security group', vpc_id)
+    scgrp_id = secgrp_res['GroupId']
+    ec2.add_inbound_sg_rule(scgrp_id)
+
+    user_data = """
+                    #!/bin/bash
+                    yum update -y
+                    yum install httpd24 -y
+                    service httpd start
+                    chkconfig httpd on
+                    echo "<html><body><h1> Hello from <b>Boto3</b></h1></body></html>" > /var/www/html/index.html
+                """
+    ec2.launch_ec2_instance('ami-00068cd7555f543d5', key_name, 1, 1, scgrp_id, subnet_id, user_data)
 
 if __name__ == '__main__':
     main()
