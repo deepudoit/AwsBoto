@@ -1,4 +1,5 @@
 from src.ec2.vpc import VPC
+from src.ec2.ec2 import EC2
 from src.client_locator import EC2Client
 
 def main():
@@ -33,6 +34,16 @@ def main():
 
     # Add name tag to private subnet
     vpc.add_name_tag(priv_subnet_id, 'Boto3-AWS')
+
+
+    # EC2 Instances
+    # Create a keypair
+    ec2 = EC2(ec2_client)
+    key_name = 'boto3-key'
+    key_pair = ec2.create_key_pair(key_name)
+
+    print('Key ==> ', str(key_pair))
+
 
 if __name__ == '__main__':
     main()
