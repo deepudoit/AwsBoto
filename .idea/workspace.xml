@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911fc586-e77f-4b62-9166-a4e68252e6a5" name="Default Changelist" comment="" />
+    <list default="true" id="911fc586-e77f-4b62-9166-a4e68252e6a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ec2/vpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ec2/vpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_deployment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_deployment.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UTs148ZbnJquZ8nRGkdsl593pb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
@@ -78,22 +88,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1377" height="258" key="GridCell.Tab.0.bottom" timestamp="1575399100395">
+    <state width="1377" height="258" key="GridCell.Tab.0.bottom" timestamp="1575424061480">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state width="1377" height="258" key="GridCell.Tab.0.bottom/52.27.1868.1053@52.27.1868.1053" timestamp="1575399100395" />
-    <state width="1377" height="258" key="GridCell.Tab.0.center" timestamp="1575399100393">
+    <state width="1377" height="258" key="GridCell.Tab.0.bottom/52.27.1868.1053@52.27.1868.1053" timestamp="1575424061480" />
+    <state width="1377" height="258" key="GridCell.Tab.0.center" timestamp="1575424061477">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state width="1377" height="258" key="GridCell.Tab.0.center/52.27.1868.1053@52.27.1868.1053" timestamp="1575399100393" />
-    <state width="1377" height="258" key="GridCell.Tab.0.left" timestamp="1575399100392">
+    <state width="1377" height="258" key="GridCell.Tab.0.center/52.27.1868.1053@52.27.1868.1053" timestamp="1575424061477" />
+    <state width="1377" height="258" key="GridCell.Tab.0.left" timestamp="1575424061475">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state width="1377" height="258" key="GridCell.Tab.0.left/52.27.1868.1053@52.27.1868.1053" timestamp="1575399100392" />
-    <state width="1377" height="258" key="GridCell.Tab.0.right" timestamp="1575399100394">
+    <state width="1377" height="258" key="GridCell.Tab.0.left/52.27.1868.1053@52.27.1868.1053" timestamp="1575424061475" />
+    <state width="1377" height="258" key="GridCell.Tab.0.right" timestamp="1575424061478">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state width="1377" height="258" key="GridCell.Tab.0.right/52.27.1868.1053@52.27.1868.1053" timestamp="1575399100394" />
+    <state width="1377" height="258" key="GridCell.Tab.0.right/52.27.1868.1053@52.27.1868.1053" timestamp="1575424061478" />
     <state x="475" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575392278296">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>

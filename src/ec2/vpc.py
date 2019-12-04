@@ -50,3 +50,9 @@ class VPC:
             SubnetId=subnet_id,
             RouteTableId=rtb_id
         )
+
+    def auto_assign_ip_subnet(self, subnet_id):
+        return self._client.modify_subnet_attribute(
+            SubnetId=subnet_id,
+            MapPublicIpOnLaunch={'Value': True}
+        )
