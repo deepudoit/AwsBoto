@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="911fc586-e77f-4b62-9166-a4e68252e6a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ec2/ec2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ec2/ec2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_deployment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_deployment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UTs148ZbnJquZ8nRGkdsl593pb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,9 +31,51 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sns">
+    <configuration name="sns" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AwsBoto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/sns.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sqs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AwsBoto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/sqs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_deployment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AwsBoto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sns" />
+        <item itemvalue="Python.sqs" />
         <item itemvalue="Python.test_deployment" />
       </list>
     </recent_temporary>
@@ -91,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575425699753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ec2 changes">
+      <created>1575449195331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575449195331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -99,39 +150,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="Ec2 changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="590" y="143" width="777" height="822" key="CommitChangelistDialog2" timestamp="1575425699579">
-      <screen x="52" y="27" width="1868" height="1053" />
+    <state x="553" y="138" width="777" height="822" key="CommitChangelistDialog2" timestamp="1575449195183">
+      <screen x="0" y="27" width="1920" height="1005" />
     </state>
+    <state x="553" y="138" key="CommitChangelistDialog2/0.27.1920.1005@0.27.1920.1005" timestamp="1575449195183" />
     <state x="590" y="143" width="777" height="822" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575425699579" />
-    <state width="787" height="275" key="GridCell.Tab.0.bottom" timestamp="1575448953986">
-      <screen x="0" y="27" width="1920" height="1005" />
+    <state width="685" height="268" key="GridCell.Tab.0.bottom" timestamp="1575626762551">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="784" height="275" key="GridCell.Tab.0.bottom/0.27.1914.772@0.27.1914.772" timestamp="1575449799489" />
     <state width="787" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953986" />
+    <state width="685" height="268" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1575626762551" />
     <state width="1377" height="258" key="GridCell.Tab.0.bottom/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877853" />
-    <state width="787" height="275" key="GridCell.Tab.0.center" timestamp="1575448953983">
-      <screen x="0" y="27" width="1920" height="1005" />
+    <state width="685" height="268" key="GridCell.Tab.0.center" timestamp="1575626762548">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="784" height="275" key="GridCell.Tab.0.center/0.27.1914.772@0.27.1914.772" timestamp="1575449799484" />
     <state width="787" height="275" key="GridCell.Tab.0.center/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953983" />
+    <state width="685" height="268" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1575626762548" />
     <state width="1377" height="258" key="GridCell.Tab.0.center/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877848" />
-    <state width="787" height="275" key="GridCell.Tab.0.left" timestamp="1575448953981">
-      <screen x="0" y="27" width="1920" height="1005" />
+    <state width="685" height="268" key="GridCell.Tab.0.left" timestamp="1575626762546">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="784" height="275" key="GridCell.Tab.0.left/0.27.1914.772@0.27.1914.772" timestamp="1575449799483" />
     <state width="787" height="275" key="GridCell.Tab.0.left/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953981" />
+    <state width="685" height="268" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1575626762546" />
     <state width="1377" height="258" key="GridCell.Tab.0.left/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877843" />
-    <state width="787" height="275" key="GridCell.Tab.0.right" timestamp="1575448953984">
-      <screen x="0" y="27" width="1920" height="1005" />
+    <state width="685" height="268" key="GridCell.Tab.0.right" timestamp="1575626762549">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="784" height="275" key="GridCell.Tab.0.right/0.27.1914.772@0.27.1914.772" timestamp="1575449799485" />
     <state width="787" height="275" key="GridCell.Tab.0.right/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953984" />
+    <state width="685" height="268" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1575626762549" />
     <state width="1377" height="258" key="GridCell.Tab.0.right/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877851" />
-    <state x="435" y="181" width="1051" height="737" key="SettingsEditor" timestamp="1575447340948">
-      <screen x="0" y="27" width="1920" height="1005" />
+    <state x="435" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575607545669">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="435" y="181" width="1051" height="737" key="SettingsEditor/0.27.1920.1005@0.27.1920.1005" timestamp="1575447340948" />
+    <state x="435" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1575607545669" />
     <state x="475" y="188" width="1022" height="737" key="SettingsEditor/52.27.1868.1053@52.27.1868.1053" timestamp="1575392278296" />
-    <state x="640" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1575422287908">
-      <screen x="52" y="27" width="1868" height="1053" />
+    <state x="604" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1575599786635">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="604" y="378" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575599786635" />
     <state x="640" y="378" key="com.intellij.ide.util.TipDialog/52.27.1868.1053@52.27.1868.1053" timestamp="1575422287908" />
+    <state x="1212" y="159" width="707" height="789" key="find.popup" timestamp="1575624360483">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1212" y="159" width="707" height="789" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1575624360483" />
     <state x="649" y="272" key="search.everywhere.popup" timestamp="1575391917470">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
