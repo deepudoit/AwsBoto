@@ -1,7 +1,7 @@
 import boto3
 
 TOPIC_NAME = 'SubTopic'
-TOPIC_ARN = 'arn:aws:sns:us-east-1:835152019027:SubTopic'
+TOPIC_ARN = 'arn:aws:sns:us-east-1:463148421511:SubTopic'
 QUEUE_ARN = 'arn:aws:sqs:us-east-1:835152019027:MainQ'
 
 
@@ -65,6 +65,17 @@ def create_sqs_sub(topic_arn, queue_arn):
         Endpoint=queue_arn
     )
 
+def get_topics_sub(topic_arn):
+    return sns_client().list_subscriptions_by_topic(
+        TopicArn=topic_arn
+    )
+
+def list_opted_out_phns():
+    return sns_client().list_phone_numbers_opted_out()
+
+def email_opt_out(email_addrs):
+    subs = get_topics_sub(topic_arn)
+
 
 if __name__ == '__main__':
     # Run code here
@@ -74,4 +85,6 @@ if __name__ == '__main__':
     # print(delete_topic())
     # print(create_email_sub(TOPIC_ARN, 'pgandla.aws@gmail.com'))
     # create_sms_sub(TOPIC_ARN)
-    create_sqs_sub(TOPIC_ARN, QUEUE_ARN)
+    # create_sqs_sub(TOPIC_ARN, QUEUE_ARN)
+    # print(get_topics_sub(TOPIC_ARN))
+    print(list_opted_out_phns())
