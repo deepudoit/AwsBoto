@@ -115,6 +115,21 @@ def update_lambda_code(func_name, src_folder):
     )
 
 
+def publish_lambda_fn(func_name):
+    return lambda_client().publish_version(
+        FunctionName=func_name
+    )
+
+
+def create_alias_version(func_name, alias_name, version):
+    return lambda_client().create_alias(
+        FunctionName=func_name,
+        Name=alias_name,
+        FunctionVersion=version,
+        Description='This is PROD version'
+    )
+
+
 if __name__ == '__main__':
     # print(create_access_policy_lambda())
     # print(create_lambda_role())
@@ -130,5 +145,7 @@ if __name__ == '__main__':
     # }
     # add_env_lambda(LAMBDA_NAME, env_var)
     # update_lambda_code(LAMBDA_NAME, 'python_lambda')
-    response = invoke_func(LAMBDA_NAME)
-    print(response['Payload'].read().decode())
+    # response = invoke_func(LAMBDA_NAME)
+    # print(response['Payload'].read().decode())
+    # print(publish_lambda_fn(LAMBDA_NAME))
+    print(create_alias_version(LAMBDA_NAME, 'PROD', '1'))
