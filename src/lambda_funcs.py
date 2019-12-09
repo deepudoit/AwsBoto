@@ -1,3 +1,5 @@
+from pyclbr import Function
+
 import boto3
 import json
 from os import path
@@ -130,6 +132,34 @@ def create_alias_version(func_name, alias_name, version):
     )
 
 
+def invoke_lambda_alias(func_name, alias_name):
+    return lambda_client().invoke(
+        FunctionName=func_name,
+        Qualifier=alias_name
+    )
+
+
+def get_lambda(func_name):
+    return lambda_client().get_function(
+        FunctionName=func_name
+    )
+
+
+def get_all_lambdas():
+    return lambda_client().list_functions()
+
+
+def change_lambda_mem(func_name, mem_size):
+    return lambda_client().update_function_configuration(
+        FunctionName=func_name,
+        MemorySize=mem_size
+    )
+
+def delete_lambda(func_name):
+    return lambda_client().delete_function(
+        FunctionName=func_name
+    )
+
 if __name__ == '__main__':
     # print(create_access_policy_lambda())
     # print(create_lambda_role())
@@ -148,4 +178,10 @@ if __name__ == '__main__':
     # response = invoke_func(LAMBDA_NAME)
     # print(response['Payload'].read().decode())
     # print(publish_lambda_fn(LAMBDA_NAME))
-    print(create_alias_version(LAMBDA_NAME, 'PROD', '1'))
+    # print(create_alias_version(LAMBDA_NAME, 'PROD', '1'))
+    # response = invoke_lambda_alias(LAMBDA_NAME, 'PROD')
+    # print(response['Payload'].read().decode())
+    # print(get_lambda(LAMBDA_NAME))
+    # print(get_all_lambdas())
+    # print(change_lambda_mem(LAMBDA_NAME, 150))
+    print(delete_lambda('LambdaNode'))
