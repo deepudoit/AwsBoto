@@ -155,10 +155,12 @@ def change_lambda_mem(func_name, mem_size):
         MemorySize=mem_size
     )
 
+
 def delete_lambda(func_name):
     return lambda_client().delete_function(
         FunctionName=func_name
     )
+
 
 if __name__ == '__main__':
     # print(create_access_policy_lambda())
@@ -184,4 +186,4 @@ if __name__ == '__main__':
     # print(get_lambda(LAMBDA_NAME))
     # print(get_all_lambdas())
     # print(change_lambda_mem(LAMBDA_NAME, 150))
-    print(delete_lambda('LambdaNode'))
+    print(delete_lambda(LAMBDA_NAME))
