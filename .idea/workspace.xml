@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="911fc586-e77f-4b62-9166-a4e68252e6a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_funcs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
       <recent name="$PROJECT_DIR$/src/nodejs_lambda" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lambda_func">
+  <component name="RunManager" selected="Python.ImageRekog">
     <configuration name="DescInst" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AwsBoto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,6 +52,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/DescInst.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ImageRekog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AwsBoto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ImageRekog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,34 +144,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_deployment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AwsBoto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_deployment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ImageRekog" />
         <item itemvalue="Python.lambda_func" />
         <item itemvalue="Python.DescInst" />
         <item itemvalue="Python.sns" />
         <item itemvalue="Python.sqs" />
-        <item itemvalue="Python.test_deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -225,43 +224,47 @@
     <state x="553" y="138" key="CommitChangelistDialog2/0.27.1920.1005@0.27.1920.1005" timestamp="1575449195183" />
     <state x="553" y="143" width="777" height="828" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1575863546987" />
     <state x="590" y="143" width="777" height="822" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575425699579" />
-    <state width="678" height="242" key="GridCell.Tab.0.bottom" timestamp="1575866609331">
+    <state x="1192" y="257" width="424" height="520" key="FileChooserDialogImpl" timestamp="1577421058158">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1192" y="257" width="424" height="520" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1577421058158" />
+    <state width="506" height="182" key="GridCell.Tab.0.bottom" timestamp="1576766264520">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="784" height="275" key="GridCell.Tab.0.bottom/0.27.1914.772@0.27.1914.772" timestamp="1575449799489" />
     <state width="787" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953986" />
-    <state width="678" height="242" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1575866609331" />
+    <state width="506" height="182" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1576766264520" />
     <state width="1509" height="267" key="GridCell.Tab.0.bottom/0.27.2560.1573@0.27.2560.1573" timestamp="1575826655039" />
     <state width="1377" height="258" key="GridCell.Tab.0.bottom/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877853" />
-    <state width="678" height="242" key="GridCell.Tab.0.center" timestamp="1575866609327">
+    <state width="506" height="182" key="GridCell.Tab.0.center" timestamp="1576766264516">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="784" height="275" key="GridCell.Tab.0.center/0.27.1914.772@0.27.1914.772" timestamp="1575449799484" />
     <state width="787" height="275" key="GridCell.Tab.0.center/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953983" />
-    <state width="678" height="242" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1575866609327" />
+    <state width="506" height="182" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1576766264516" />
     <state width="1509" height="267" key="GridCell.Tab.0.center/0.27.2560.1573@0.27.2560.1573" timestamp="1575826655031" />
     <state width="1377" height="258" key="GridCell.Tab.0.center/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877848" />
-    <state width="678" height="242" key="GridCell.Tab.0.left" timestamp="1575866609326">
+    <state width="506" height="182" key="GridCell.Tab.0.left" timestamp="1576766264515">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="784" height="275" key="GridCell.Tab.0.left/0.27.1914.772@0.27.1914.772" timestamp="1575449799483" />
     <state width="787" height="275" key="GridCell.Tab.0.left/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953981" />
-    <state width="678" height="242" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1575866609326" />
+    <state width="506" height="182" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1576766264515" />
     <state width="1509" height="267" key="GridCell.Tab.0.left/0.27.2560.1573@0.27.2560.1573" timestamp="1575826655025" />
     <state width="1377" height="258" key="GridCell.Tab.0.left/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877843" />
-    <state width="678" height="242" key="GridCell.Tab.0.right" timestamp="1575866609329">
+    <state width="506" height="182" key="GridCell.Tab.0.right" timestamp="1576766264518">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="784" height="275" key="GridCell.Tab.0.right/0.27.1914.772@0.27.1914.772" timestamp="1575449799485" />
     <state width="787" height="275" key="GridCell.Tab.0.right/0.27.1920.1005@0.27.1920.1005" timestamp="1575448953984" />
-    <state width="678" height="242" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1575866609329" />
+    <state width="506" height="182" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1576766264518" />
     <state width="1509" height="267" key="GridCell.Tab.0.right/0.27.2560.1573@0.27.2560.1573" timestamp="1575826655033" />
     <state width="1377" height="258" key="GridCell.Tab.0.right/52.27.1868.1053@52.27.1868.1053" timestamp="1575441877851" />
-    <state x="898" y="145" width="1022" height="737" key="SettingsEditor" timestamp="1575832492547">
+    <state x="898" y="145" width="1022" height="737" key="SettingsEditor" timestamp="1577421069323">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="435" y="181" width="1051" height="737" key="SettingsEditor/0.27.1920.1005@0.27.1920.1005" timestamp="1575447340948" />
-    <state x="898" y="145" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1575832492547" />
+    <state x="898" y="145" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1577421069323" />
     <state x="475" y="188" width="1022" height="737" key="SettingsEditor/52.27.1868.1053@52.27.1868.1053" timestamp="1575392278296" />
     <state x="604" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1575599786635">
       <screen x="0" y="27" width="1920" height="1053" />
